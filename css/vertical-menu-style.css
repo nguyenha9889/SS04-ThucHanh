@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+    font-size: 62.5%;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    float: left;
+    width: 130px;
+    height: 220px;
+    margin: 0 40px 0 5px;
+    padding: 10px 0;
+    background-color: rgba(207, 206, 206, 0.493);
+}
+.menu a {
+    color: black;
+    font-size: 1.6em;
+    padding: 10px;
+}
+.menu a:first-child {
+    background-color: rgba(49, 253, 49, 0.788);
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+p {
+    font-size: 1.6em;
+}
